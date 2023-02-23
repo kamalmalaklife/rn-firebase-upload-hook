@@ -1,0 +1,33 @@
+{
+  "name": "rn-firebase-upload-hook",
+  "version": "1.0.0",
+  "description": "Simple Photo uploader hook to firebase/storage",
+  "main": "use-image-upload.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "expo-image-manipulator": "^11.0.0",
+    "expo-image-picker": "^14.1.0",
+    "react": "^18.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamalmalaklife/rn-firebase-upload-hook.git"
+  },
+  "keywords": [
+    "Firebase",
+    "Upload",
+    "Progress",
+    "storage",
+    "react",
+    "react-native",
+    "expo"
+  ],
+  "author": "Kamal A. Alghoul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kamalmalaklife/rn-firebase-upload-hook/issues"
+  },
+  "homepage": "https://github.com/kamalmalaklife/rn-firebase-upload-hook#readme"
+}
