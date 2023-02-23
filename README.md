@@ -66,4 +66,36 @@ When destructing consts from useImageUpload() hook you get
 | error          | Boolean         | if error has occoured                                                     |
 | reset          | method          | resets the state of downloadUrl, selectedImage, uploading, success, error |
 
+## resize photo before upload
+
+useImageUpload(config) can have config to resize photo
+
+```javascript
+  const config = {
+    refFolder:  "/images/" //  to select subfolders for storage reference
+    resize: {
+      width: 500, // Optional, Image resized width
+      height: 500, // Optiona;, Image resized height
+      quality: 1, // Optional, image resized quality
+      format: "jpeg", // "jpeg", "png", "webp"
+      compress: 1 // compress rate, recommended 0.9,
+    },
+  };
+
+  const [
+    pickImage,
+    selectedImage,
+    uploadProgress,
+    downloadUrl,
+    uploading,
+    success,
+    error,
+    reset,
+  ] = useImageUpload(config);
+
+
+
+
+```
+
 ###End
